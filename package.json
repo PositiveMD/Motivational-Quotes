@@ -3,23 +3,15 @@
   "version": "1.0.0",
   "description": "An example Alexa Skill that calls an API to randomly read the user a motivational quote",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
     "alexa-message-builder": "^1.1.0",
-    "alexa-sdk": "^1.0.11",
     "alexa-skill-kit": "^1.0.0",
-    "aws-sdk": "^2.83.0",
     "jslint": "^0.10.3",
-    "request": "^2.81.0",
-    "request-promise": "^4.2.1",
-    "twitter": "^1.7.1",
-    "yql": "^1.0.2"
+	"request": "^2.81.0",
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AnthonyDinh",
   "license": "MIT"
