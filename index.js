@@ -1,7 +1,14 @@
 'use strict';
+const request = require('request');
 const rp = require('request-promise');
 const alexaSkillKit = require('alexa-skill-kit');
 const AlexaMessageBuilder = require('alexa-message-builder');
+
+var options = {
+    uri: 'http://api.forismatic.com/api/1.0/',
+    qs: { method: 'getQuote', format: 'json', key: '', lang: 'en' },
+    json: true
+};
 
 
 var propertiesObject = {method:'getQuote', format:'json', key:'', lang:'en'};
